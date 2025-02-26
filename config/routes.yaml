@@ -1,0 +1,8 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+    
+dossier_routes:
+    resource: ../src/Controller/DossierController.php
+    type: attribute
+    prefix: /
